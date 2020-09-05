@@ -1,0 +1,24 @@
+.topic {
+  color: red;
+}
+
+.available {
+  color: blue;
+}
+
+.unavailable {
+  color: black;
+}
+
+p {
+  font-size: 25px;
+}
+
+.btn {
+  padding: 0.5em;
+  font-size: larger;
+}
+
+.avail {
+  color: red;
+}
