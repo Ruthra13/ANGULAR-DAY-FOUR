@@ -1,0 +1,32 @@
+<h1>Pipes in Angular</h1>
+<h2>Date Pipes</h2>
+<p><strong>Full Date : </strong> {{ currentDate | date: "full" }}</p>
+<p><strong>Short Date: </strong> {{ currentDate | date: "shortDate" }}</p>
+<p><strong>Medium Date:</strong> {{ currentDate | date: "mediumDate" }}</p>
+<p><strong>Full Date: </strong>{{ currentDate | date: "fullDate" }}</p>
+<p><strong>Time: </strong>{{ currentDate | date: "shortTime" }}</p>
+<p><strong>Time: </strong> {{ currentDate | date: "mediumTime" }}</p>
+<p><strong>Time: </strong>{{ currentDate | date: "longTime" }}</p>
+<br />
+
+<h2>Number Pipes</h2>
+<p><strong>No Formatting : </strong>{{ num | number: "1.0-2" }}</p>
+<p><strong>2 Decimal Place : </strong>{{ num | number: "1.2-2" }}</p>
+<br />
+
+<h2>Currency Pipes</h2>
+<p><strong>No Formatting : </strong>{{ cur | number: "1.0-2" }}</p>
+<p><strong>USD Doller($) : </strong>{{ cur | currency: "USD" }}</p>
+<p><strong>USD Doller : </strong>{{ cur | currency: "USD":"code" }}</p>
+<p><strong>INR() : </strong>{{ cur | currency: "INR" }}</p>
+<p><strong>INR() : </strong>{{ cur | currency: "INR":"code" }}</p>
+<br />
+
+<h2>String Related Pipes</h2>
+<p><strong>Actual Message : </strong>{{ str }}</p>
+<p><strong>Lower Case : </strong>{{ str | lowercase }}</p>
+<p><strong>Upper Case : </strong>{{ str | uppercase }}</p>
+<br />
+
+<h2>Percentage Pipes</h2>
+<p><strong>2 Place Formatting : </strong>{{ per | percent: "1.2-2" }}</p>
